@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chanel preview card</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap" rel="stylesheet">
+    
+
+    <style>
+      .product-image{
+        width: 300px;
+        border-top-left-radius:10px ;
+        border-bottom-left-radius: 10px;
+      }
+
+      .main-container{
+        display:flex;
+        flex-direction: row;
+        border-style: solid;
+        width: 600px;
+        margin-left: 400px;
+        margin-top: 100px;
+        border-style: solid;
+        border-color: rgb(223, 223, 202);
+        border-radius:10px;
+        border-width: 0.8px;
+      }
+
+      .description{
+        font-family:Montserrat; 
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 21px;
+        color:rgb(110, 109, 109) ;
+        margin-bottom: 0px;
+      }
+      .image-row{
+        display: flex;
+      }
+
+      .information-row{
+        background-color: white;
+        margin-left: 20px;
+        width: 260px;
+      }
+      .perfume{
+        font-size:13px;
+        color: rgb(170, 166, 166);
+      }
+      .manufacturer-name{
+        font-size: 50px;
+        font-family: Fraunces, Montserrat;
+        line-height: 40px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .price-button{
+        width: 200px;
+        font-size: 13px;
+        font-weight: bold;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 250px;
+        height: 38px;
+        border-radius: 7px;
+        border-style: none;
+        background-color:rgb(5, 128, 91) ;
+      }
+
+      .price{
+        font-size: 30px;
+        font-family:Fraunces, Montserrat;
+        font-weight: bold;
+        color:rgb(5, 128, 91) ;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .strike{
+        font-size: 12px;
+        color: gray;
+        align-items: center;
+      }
+
+      .price-tag{
+        display: flex;
+      }
+
+      .cart-icon{
+        width: 12px;
+        margin-right: 8px;
+      }
+      
+    </style>
+
+  </head>
+  <body class>
+    <div class="main-container">
+      <div class="image-row">
+        <img class="product-image" src="image-product-desktop.jpg">
+      </div>
+      <div class="information-row">
+        <p class="perfume">P E R F U M E</p>
+        <p class="manufacturer-name">Gabrielle Essence Eau De Parfum</p>
+        <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perumer-Creator for the House of CHANEL.</p>
+        
+        <div class="price-tag">
+          <p class="price">$149.99 <strike class="strike">$169.99</strike> </p>
+          
+        </div>
+        
+        <button class="price-button"> <img class="cart-icon" src="icon-cart.svg">Add to cart</button>
+      </div>
+    </div>
+    
+  </body>
+</html>
